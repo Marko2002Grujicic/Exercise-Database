@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button, Stack, Typography } from "@mui/material";
 const scrollOnClick = () => {
-  window.scrollTo({ top: 200, behavior: "smooth" });
+  window.scrollTo({ top: 0, behavior: "smooth" });
 };
 const ExerciseCard = ({ exercise }) => (
   <Link
